@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="2">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/icn_user_placeholder"
+                android:layout_centerInParent="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/white"/>
+
+            <View
+                android:visibility="gone"
+                android:id="@+id/vEditPhoto"
+                android:background="@drawable/camera_refresh"
+                android:layout_centerInParent="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:id="@+id/txtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@drawable/bg"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icn_user" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/gravy_deep"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/lnEditName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <EditText
+                        android:id="@+id/editFirstName"
+                        android:hint="@string/first_name"
+                        android:textColorHint="@color/gravy"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/gravy_deep"
+                        android:textSize="15dp"
+                        android:inputType="textPersonName"
+                        android:background="@android:color/transparent"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0.5dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="match_parent"/>
+
+                    <EditText
+                        android:id="@+id/editLastName"
+                        android:hint="@string/last_name"
+                        android:textColorHint="@color/gravy"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/gravy_deep"
+                        android:textSize="15dp"
+                        android:inputType="textPersonName"
+                        android:background="@android:color/transparent"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="10dp"
+                style="@style/h_line"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icn_email" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:hint="@string/email"
+                    android:textColorHint="@color/gravy"
+                    android:background="@android:color/transparent"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/gravy_deep"
+                    android:textSize="15dp"
+                    android:enabled="false"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginLeft="10dp"
+                style="@style/h_line"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icn_phone" />
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:hint="@string/phone_number"
+                    android:textColorHint="@color/gravy"
+                    android:background="@android:color/transparent"
+                    android:inputType="textPhonetic"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/gravy_deep"
+                    android:textSize="15dp"
+                    android:enabled="false"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+            <View style="@style/h_line"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtEdit"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    style="@style/fill_btn" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/txtEdit"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/txtCancel"
+                    style="@style/fill_btn" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/cameraRoll"
+        android:background="#90000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/imgGallery"
+                android:src="@drawable/icn_gallery"
+                android:scaleType="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorPrimary"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:id="@+id/imgCamera"
+                android:src="@drawable/icn_camera"
+                android:scaleType="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorPrimary"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:src="@drawable/icn_close"
+                android:scaleType="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

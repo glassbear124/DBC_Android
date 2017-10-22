@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_weight="1">
+
+        <ImageView
+            android:padding="10dp"
+
+            android:src="@drawable/logo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:src="@drawable/slide_pic" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:maxLines="30"
+            android:textColor="@color/gravy_deep"
+            android:autoLink="web"
+            android:text="De Stichting Dierenbescherming Curaçao is grotendeels afhankelijk van donaties en sponsors om haar missie te kunnen uitvoeren. Indien u meer informatie wenst over hoe u de Stichting Dierenbescherming Curaçao kunt helpen neem dan contact met ons op." />
+
+        <TextView
+            android:id="@+id/txtUrl"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="Powered by Sportential.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

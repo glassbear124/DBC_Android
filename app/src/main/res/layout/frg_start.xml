@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tevreden.dbc.tinder.ui.TinderStackLayout
+            android:id="@+id/tsl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="220dp"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/vUnlike"
+            android:background="@drawable/btn_unlike"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/vInfo"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_info"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/vLike"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_like"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:id="@+id/rnMask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtHavenot"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/gravy"
+            android:gravity="center"
+            android:text="There are currently no new animals to adopt."
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

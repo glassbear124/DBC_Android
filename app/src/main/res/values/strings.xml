@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Pet Cupid</string>
+
+    <string name="facebook_app_id">748916921954766</string>
+    <string name="fb_login_protocol_scheme">fb748916921954766</string>
+
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="petname">User name</string>
+    <string name="password">Password</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="email">E-mail</string>
+    <string name="email_nd">E-mail</string>
+    <string name="email_pa">E-mail</string>
+
+    <string name="confirm_pwd">Confirm Password</string>
+    <string name="confirm_pwd_nd">Bevestig wachtwoord</string>
+    <string name="confirm_pwd_pa">Konfirma bo password</string>
+
+    <string name="signup">Sign Up</string>
+
+    <string name="new_pw">New Password</string>
+    <string name="new_pw_nd">Nieuw paswoord</string>
+    <string name="new_pw_pa">Password nobo</string>
+
+    <string name="send_email">Send E-mail</string>
+
+    <string name="choose_lang">Choose Language:</string>
+    <string name="want_to_see">Choose the category Dogs or Cats:</string>
+
+    <string name="choose_lang_nd">Kies een taal:</string>
+    <string name="want_to_see_nd">Kies de categorie Honden of Katten:</string>
+
+    <string name="choose_lang_pa">Skohe bo idioma:</string>
+    <string name="want_to_see_pa">Skohe e kategoria Kacho of Pushi:</string>
+
+    <string name="start">Start</string>
+
+    <string name="first_name">First Name</string>
+    <string name="first_name_nd">Voornaam</string>
+    <string name="first_name_pa">Nomber</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="last_name_nd">Achternaam</string>
+    <string name="last_name_pa">Fam</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_nd">Telefoonnummer</string>
+    <string name="phone_number_pa">Number di telefon</string>
+
+    <string name="reset">Reset</string>
+    <string name="reset_nd">Reset</string>
+    <string name="reset_pa">Reset</string>
+
+    <string name="edit">Edit</string>
+    <string name="edit_nd">Bewerk</string>
+    <string name="edit_pa">Kambia</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="cancel_pa">Kansela</string>
+    <string name="cancel_nd">Annuleren</string>
+
+
+    <string name="save">Save</string>
+    <string name="save_nd">Save</string>
+    <string name="save_pa">Save</string>
+
+    <string name="heart">♥</string>
+
+    <string name="color">Color:</string>
+    <string name="color_pa">Kolo:</string>
+    <string name="color_nd">Kleur:</string>
+
+    <string name="gender">Gender:</string>
+    <string name="gender_pa">Sexo:</string>
+    <string name="gender_nd">Geslacht:</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="adoptable">Adoptable</string>
+
+    <string name="male_nd">Reu</string>
+    <string name="female_nd">Teef</string>
+    <string name="small_nd">Klein</string>
+    <string name="medium_nd">Middelgroot</string>
+    <string name="large_nd">Groot</string>
+    <string name="adoptable_nd">Adopteerbaar</string>
+
+    <string name="male_pa">Macho</string>
+    <string name="female_pa">Muhe</string>
+    <string name="small_pa">Chikitu</string>
+    <string name="medium_pa">Mediano</string>
+    <string name="large_pa">Grandi</string>
+    <string name="adoptable_pa">Adoptabel</string>
+
+    <string name="age">Age:</string>
+    <string name="age_pa">Edat:</string>
+    <string name="age_nd">Leeftijd:</string>
+
+    <string name="age1">age</string>
+    <string name="age1_pa">edat</string>
+    <string name="age1_nd">leeftijd</string>
+
+    <string name="size">Size:</string>
+    <string name="size_pa">Grandura:</string>
+    <string name="size_nd">Grootte:</string>
+
+    <string name="status">Status:</string>
+    <string name="status_pa">Status:</string>
+    <string name="status_nd">Status:</string>
+
+    <string name="havenot_fevorite">There are no new animals to choose from at this moment.</string>
+    <string name="havenot_fevorite_pa">Na e momentu aki no tin animal nobo pa skohe.</string>
+    <string name="havenot_fevorite_nd">Er zijn op dit moment geen nieuwe dieren om uit te kiezen.</string>
+
+    <string name="adopt_me">Adopt me</string>
+    <string name="adopt_me_pa">Adopta\'mi</string>
+    <string name="adopt_me_nd">Adopteer mij</string>
+
+    <string name="skip">Skip</string>
+    <string name="skip_pa">Salta</string>
+    <string name="skip_nd">Overslaan</string>
+
+    <string name="continue_uk">Continue</string>
+    <string name="continue_pa">Sigui</string>
+    <string name="continue_nd">Doorgaan</string>
+
+    <string name="day">days</string>
+    <string name="day_pa">dia</string>
+    <string name="day_nd">dagen</string>
+
+    <string name="week">weeks</string>
+    <string name="week_pa">siman</string>
+    <string name="week_nd">weken</string>
+
+    <string name="month">months</string>
+    <string name="month_pa">luna</string>
+    <string name="month_nd">maanden</string>
+
+    <string name="year">years</string>
+    <string name="year_pa">aña</string>
+    <string name="year_nd">jaren</string>
+
+
+    <string name="slider_uk">Thank you for downloading our app. Looking for your new best friend? \n\nGive shelter animals a chance! Because they too are looking for someone to love!
+Simply browse through and select your favorite(s). Think you’ve found your match? Contact the respective organization* to set up your first date.\n\n*Stichting Dierenbescherming Curaçao collaborates with other local organizations to give as many shelter animals as possible a second chance</string>
+
+    <string name="slider_pa">Danki pa a “download” nos aplikashon. Bo ta buskando un bon amigu nobo?\n\nDuna nos bestia nan di asil un oportunidat! Pasó nan tambe ta buskando un hende pa stima.
+Djis “browse” dor di e aplikashon i selektá bo faborito(nan). Bo ta kere bo a haña esun perfekto? Tuma kontakto ku e organisashon respektivo* pa traha un sita.\n\n*Stichting Dierenbescherming Curaçao ta kolaborá ku otro organisashonnan lokal pa mas tantu posibel duna bestia nan di asil un di dos oportunidat.</string>
+
+    <string name="slider_nd">Bedankt voor het downloaden van onze app. Op zoek naar een nieuw maatje?\n\nGeef asiel dieren een kans want ook zij zijn op zoek naar iemand om lief te hebben!
+Browse simpelweg door  de profielen en selecteer jouw favoriete dier(en). Heb je een keuze gemaakt? Neem dan contact op met de respectievelijke organisatie* voor een ontmoeting.\n\n*Stichting Dierenbescherming Curaçao werkt samen met andere locale stichtingen om zoveel mogelijk asiel dieren een tweede kans te geven.</string>
+
+
+    <string name="about_uk">Stichting Dierenbescherming Curaçao (Animal Protection Foundation Curaçao) is an organization that strives to prevent animal cruelty, to shelter abandoned animals, to prevent unwanted offspring and to educate the population about animal rights and their proper caretaking. Our organization collaborates with other local organizations to help further this mission.
+For more information about our organization, please visit our website www.dierenbeschermingcuracao.com</string>
+
+    <string name="about_pa">Stichting Dierenbescherming Curaçao (Fundashon Protekshon di Animal Kòrsou) ta un organisashon ku ta traha pa prevení krueldad kontra di bestia, pa duna asil na bestianan ku a ser bandoná, pa prevení kòkmentu no deseá i pa eduká e pueblo tokante di e derechonan di animal i nan kuido adekuá.
+Nos organisashon ta kolaborá ku otro organisashonnan lokal pa asina sigui promové e meta aki.\n\n
+Pa mas informashon tokante di nos organisashon, porfabor bishitá nos wepsait www.dierenbeschermingcuracao.com</string>
+    <string name="about_nd">Stichting Dierenbescherming Curaçao is een organisatie die zich inspant om dierenleed te bestrijden, om in te steek gelaten dieren op te vangen, om ongewenste nakomelingen te voorkomen en om mensen voor te lichten omtrent dierenrechten  en de juiste manier van verzorging. Onze organisatie werkt samen met andere lokale organisaties om dit streven te bevorderen.
+Voor meer informatie over onze organisatie, bezoek onze website www.dierenbeschermingcuracao.com</string>
+
+    <string name="contact_us_uk">Stichting Dierenbescherming Curaçao\n
+        Abattoirweg 7, Parera\n
+        Postbus 4456\n\n
+
+        +5999 465 4307 (office)\n
+        +5999 465 4300 (shelter)\n\n
+
+        info@dierenbeschermingcuracao.com\n
+        www.dierenbeschermingcuracao.com\n
+        www.facebook.com/dierenbeschermingcuracao.com\n\n
+
+        For donations:\n
+        MCB 28449007\n
+        RBC 1241184\n
+        Giro 1114493\n
+        ING Leeuwarden NL33INGB0004270530
+    </string>
+    <string name="contact_us_pa">Stichting Dierenbescherming Curaçao\n
+        Abattoirweg 7, Parera\n
+        Postbus 4456\n\n
+
+        +5999 465 4307 (ofisina)\n
+        +5999 465 4300 (shelter)\n\n
+
+        info@dierenbeschermingcuracao.com\n
+        www.dierenbeschermingcuracao.com\n
+        www.facebook.com/dierenbeschermingcuracao.com\n\n
+
+        Pa donashon:\n
+        MCB 28449007\n
+        RBC 1241184\n
+        Giro 1114493\n
+        ING Leeuwarden NL33INGB0004270530
+    </string>
+    <string name="contact_us_nd">Stichting Dierenbescherming Curaçao\n
+        Abattoirweg 7, Parera\n
+        Postbus 4456\n\n
+
+        +5999 465 4307 (kantoor)\n
+        +5999 465 4300 (shelter)\n\n
+
+        info@dierenbeschermingcuracao.com\n
+        www.dierenbeschermingcuracao.com\n
+        www.facebook.com/dierenbeschermingcuracao.com\n\n
+
+        Voor donaties:\n
+        MCB 28449007\n
+        RBC 1241184\n
+        Giro 1114493\n
+        ING Leeuwarden NL33INGB0004270530
+    </string>
+
+</resources>

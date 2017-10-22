@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="left_menu_en">
+        <item>Start</item>
+        <item>My Favorites</item>
+        <item>Organizations</item>
+        <item>My Account</item>
+        <item>About Us</item>
+        <item>Sponsors</item>
+        <item>Contact Us</item>
+        <item>Logout</item>
+    </array>
+
+    <array name="left_menu_nd">
+        <item>Start</item>
+        <item>Mijn favorieten</item>
+        <item>Organisaties</item>
+        <item>Mijn profiel</item>
+        <item>Over Ons</item>
+        <item>Sponsors</item>
+        <item>Onze Contactgegevens</item>
+        <item>Uitloggen</item>
+    </array>
+
+    <array name="left_menu_pa">
+        <item>Start</item>
+        <item>Mi favoritonan</item>
+        <item>Organisashonnan</item>
+        <item>Mi kuenta</item>
+        <item>Tokante di Nos</item>
+        <item>Spònsers</item>
+        <item>Pa Kontakto</item>
+        <item>Logout</item>
+    </array>
+</resources>

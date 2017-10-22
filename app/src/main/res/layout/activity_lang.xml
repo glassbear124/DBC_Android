@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/lnBg"
+        android:orientation="vertical"
+        android:background="@drawable/signup_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/txtChooseLang"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                android:text="@string/choose_lang"/>
+
+            <LinearLayout
+                android:id="@+id/txtLogin"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/corner_btn" >
+
+                <ImageView
+                    android:id="@+id/imgUsa"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/eng_flag_1"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/imgNed"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ned_flag_1"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/imgPap"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pap_flag_1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

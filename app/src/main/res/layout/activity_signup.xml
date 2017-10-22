@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/signup_bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/new_logo"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="0dp">
+
+        <EditText
+            android:id="@+id/editUserName"
+            android:hint="@string/petname"
+            android:inputType="text"
+            style="@style/edit_bg"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            style="@style/edit_bg" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            style="@style/edit_bg" />
+
+        <EditText
+            android:id="@+id/editConfirmPassword"
+            android:hint="@string/confirm_pwd"
+            android:inputType="textPassword"
+            style="@style/edit_bg" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/txtSignup"
+            style="@style/line_btn"
+            android:text="@string/signup" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        style="@style/TitleStyle.StatusBar">
+
+        <View
+            android:id="@+id/vBack"
+            android:background="@drawable/btn_back"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtPetName"
+        android:text="BLANCA"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/gravy_deep"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/txtContent"
+        android:text="vacunado, castrado"
+        android:textStyle="bold"
+        android:textColor="@color/gravy_deep"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
